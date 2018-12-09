@@ -1,6 +1,6 @@
 # RSS proxy for the buy and sell for section at HardwareOnline.dk
 
-This is a simple proxy which converts the DOM of the buy and sell section at HardwareOnline.dk into a RSS feed.
+This is a simple proxy which converts the DOM of the buy and sell section at HardwareOnline.dk into an RSS feed.
 
 ## Install dependencies
 
