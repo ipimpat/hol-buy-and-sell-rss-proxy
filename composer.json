@@ -1,0 +1,14 @@
+{
+    "name": "vendor/hol-sales-feed",
+    "description": "Description of project hol-sales-feed.",
+    "authors": [
+        {
+            "name": "kimse",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "sunra/php-simple-html-dom-parser": "~1.5",
+        "bhaktaraz/php-rss-generator": "dev-master"
+    }
+}
