@@ -39,7 +39,7 @@ foreach ($links as $link)
 
         // Set the RSS item properties
         $item->title(html_entity_decode(trim($advertisement[2])))
-            ->description(sprintf('User: %s ZIP: %s Comments: %d', trim($link->find('div a', 2)->plaintext), trim($link->find('div a', 1)->plaintext), intval($advertisement[3])))
+            ->description(sprintf('User: %s ZIP: %s Comments: %d', trim($link->find('div a', 1)->plaintext), trim($link->find('div a', 2)->plaintext), intval($advertisement[3])))
             ->url('https://www.hardwareonline.dk/' . $link->find('div:nth-child(1) a', 0)->href);
 
         // Add the RSS item to the right channel
