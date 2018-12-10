@@ -17,13 +17,13 @@ $channels['selling']->title('HardwareOnline - Selling')
 
 // Buying channel
 $channels['buying'] = new Bhaktaraz\RSSGenerator\Channel();
-$channels['buying']->title('HardwareOnline - Selling')
+$channels['buying']->title('HardwareOnline - Buying')
     ->description('Buying advertisements')
     ->url('https://www.hardwareonline.dk/koebsalgoversigt.aspx')->appendTo($feed);
 
 // Exchange channel
 $channels['exchange'] = new Bhaktaraz\RSSGenerator\Channel();
-$channels['exchange']->title('HardwareOnline - Selling')
+$channels['exchange']->title('HardwareOnline - Exchange')
     ->description('Exchange advertisements')
     ->url('https://www.hardwareonline.dk/koebsalgoversigt.aspx')->appendTo($feed);
 
